@@ -346,5 +346,5 @@ Proprietary - Internal Use Only
 
 - Email: support@pcsuccession.local
 - Documentation: https://docs.pcsuccession.local
-- Issues: https://github.com/yourusername/pcsuccession/issues
+- Issues: https://github.com/nickbeentjes/PCSuccession/issues
 

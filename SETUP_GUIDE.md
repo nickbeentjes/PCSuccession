@@ -19,8 +19,8 @@
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/pcsuccession.git
-cd pcsuccession
+git clone https://github.com/nickbeentjes/PCSuccession.git
+cd PCSuccession
 
 # Make scripts executable (Linux/Mac)
 chmod +x deploy/*.sh
@@ -452,7 +452,7 @@ curl https://api.anthropic.com/v1/messages \
 
 ### Support
 - Email: support@pcsuccession.local
-- Issues: https://github.com/yourusername/pcsuccession/issues
+- Issues: https://github.com/nickbeentjes/PCSuccession/issues
 
 ---
 

@@ -427,7 +427,7 @@ Restart-Service PCSuccessionAgent
 - **Setup Guide**: [SETUP_GUIDE.md](SETUP_GUIDE.md)
 - **Deployment**: [deploy/DEPLOYMENT.md](deploy/DEPLOYMENT.md)
 - **Email**: support@pcsuccession.local
-- **Issues**: https://github.com/yourusername/pcsuccession/issues
+- **Issues**: https://github.com/nickbeentjes/PCSuccession/issues
 
 ---
 

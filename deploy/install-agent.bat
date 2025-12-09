@@ -16,7 +16,7 @@ if %errorLevel% neq 0 (
 :: Set variables
 set INSTALL_DIR=C:\Program Files\PCSuccession
 set SERVICE_NAME=PCSuccessionAgent
-set AGENT_URL=https://github.com/yourusername/pcsuccession/releases/latest/download/agent.zip
+set AGENT_URL=https://github.com/nickbeentjes/PCSuccession/releases/latest/download/agent.zip
 
 echo Installing PC Succession Agent...
 echo.

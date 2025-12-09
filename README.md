@@ -81,8 +81,8 @@ PC Succession is a comprehensive system that eliminates the pain of PC migration
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/pcsuccession.git
-cd pcsuccession
+git clone https://github.com/nickbeentjes/PCSuccession.git
+cd PCSuccession
 
 # 2. Setup backend
 ./deploy/setup-backend.sh
@@ -347,8 +347,8 @@ This software is proprietary and confidential. Unauthorized copying, distributio
 
 - **📧 Email:** support@pcsuccession.local
 - **📖 Documentation:** [Full docs](SYSTEM_DOCUMENTATION.md)
-- **🐛 Issues:** [GitHub Issues](https://github.com/yourusername/pcsuccession/issues)
-- **💬 Discussions:** [GitHub Discussions](https://github.com/yourusername/pcsuccession/discussions)
+- **🐛 Issues:** [GitHub Issues](https://github.com/nickbeentjes/PCSuccession/issues)
+- **💬 Discussions:** [GitHub Discussions](https://github.com/nickbeentjes/PCSuccession/discussions)
 
 ---
 

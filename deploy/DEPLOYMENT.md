@@ -21,8 +21,8 @@
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/pcsuccession.git
-cd pcsuccession
+    git clone https://github.com/nickbeentjes/PCSuccession.git
+cd PCSuccession
 
 # Setup backend
 chmod +x deploy/setup-backend.sh
@@ -299,6 +299,6 @@ echo "0 2 * * * pg_dump -U pcsuccession pcsuccession > /backups/pcsuccession_$(d
 ## Support
 
 - Documentation: https://docs.pcsuccession.local
-- Issues: https://github.com/yourusername/pcsuccession/issues
+- Issues: https://github.com/nickbeentjes/PCSuccession/issues
 - Email: support@pcsuccession.local
 
