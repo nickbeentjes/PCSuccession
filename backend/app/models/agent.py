@@ -26,7 +26,7 @@ class Agent(Base):
     last_seen = Column(DateTime(timezone=True))
     created_at = Column(DateTime(timezone=True), server_default=func.now())
     updated_at = Column(DateTime(timezone=True), onupdate=func.now())
-    metadata = Column(JSON, default={})
+    agent_metadata = Column(JSON, default={})
     
     # Relationships
     company = relationship("Company", back_populates="agents")

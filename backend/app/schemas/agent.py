@@ -21,7 +21,10 @@ class AgentResponse(AgentBase):
     status: AgentStatus
     last_seen: Optional[datetime] = None
     created_at: datetime
-    metadata: Dict = {}
+    agent_metadata: Dict = {}
+
+    class Config:
+        from_attributes = True
 
     class Config:
         from_attributes = True
