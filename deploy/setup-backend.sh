@@ -55,8 +55,25 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
     echo "Creating database..."
     createdb -U "$DB_USER" "$DB_NAME" 2>/dev/null || echo "Database may already exist"
     
+    # Check if initial migration exists, create if not
+    if [ -z "$(ls -A alembic/versions/*.py 2>/dev/null)" ]; then
+        echo "Creating initial migration..."
+        alembic revision --autogenerate -m "Initial schema" || {
+            echo "WARNING: Could not create initial migration automatically"
+            echo "You may need to create it manually:"
+            echo "  cd backend"
+            echo "  source venv/bin/activate"
+            echo "  alembic revision --autogenerate -m 'Initial schema'"
+        }
+    fi
+    
     echo "Running migrations..."
-    alembic upgrade head
+    alembic upgrade head || {
+        echo "WARNING: Migration failed. Make sure:"
+        echo "  1. Database is running"
+        echo "  2. DATABASE_URL in .env is correct"
+        echo "  3. Database user has proper permissions"
+    }
 fi
 
 echo
