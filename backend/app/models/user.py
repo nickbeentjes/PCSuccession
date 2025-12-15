@@ -21,3 +21,4 @@ class User(Base):
     # Relationships
     company = relationship("Company", back_populates="users")
 
+

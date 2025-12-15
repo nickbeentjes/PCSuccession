@@ -41,3 +41,4 @@ class MigrationResponse(MigrationBase):
     class Config:
         from_attributes = True
 
+

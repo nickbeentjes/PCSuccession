@@ -44,3 +44,4 @@ public class Command
     public Dictionary<string, object> Parameters { get; set; } = new();
 }
 
+

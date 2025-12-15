@@ -34,3 +34,4 @@ class Inventory(Base):
     # Relationships
     agent = relationship("Agent", back_populates="inventories")
 
+

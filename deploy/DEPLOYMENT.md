@@ -34,7 +34,7 @@ nano .env
 # Update: DATABASE_URL, REDIS_URL, ANTHROPIC_API_KEY, SECRET_KEY
 ```
 
-### 2. Dashboard Setup
+### 2. Dashboard Setup  	
 
 ```bash
 # Setup dashboard

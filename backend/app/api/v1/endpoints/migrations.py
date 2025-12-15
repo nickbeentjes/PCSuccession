@@ -167,3 +167,4 @@ async def execute_migration(migration_id: str):
     finally:
         db.close()
 
+

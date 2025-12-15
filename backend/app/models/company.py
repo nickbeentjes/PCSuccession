@@ -19,3 +19,4 @@ class Company(Base):
     users = relationship("User", back_populates="company")
     agents = relationship("Agent", back_populates="company")
 
+

@@ -53,3 +53,4 @@ async def get_company(company_id: str, db: Session = Depends(get_db)):
         raise HTTPException(status_code=404, detail="Company not found")
     return company
 
+
